@@ -1,1 +1,4 @@
-dlt[duckdb,sql-database]>=1.21.0
+dlt[sql_database,postgres]>=1.21.0
+pymssql
+pyarrow
+pandas
