@@ -1,0 +1,11 @@
+[project]
+name = "sqlserver-to-postgres"
+version = "0.1.0"
+description = "DLT pipeline: SQL Server → PostgreSQL"
+requires-python = "==3.10.*"
+dependencies = [
+    "dlt[sql_database,postgres]>=1.21.0",
+    "pymssql",
+    "pyarrow",
+    "pandas",
+]
